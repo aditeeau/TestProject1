@@ -89,6 +89,7 @@ namespace TestProject1.CustomMethods
         public static void Thinktime(int Time)
         {
             System.Threading.Thread.Sleep(Time * 1000);
+
         }
 
 
