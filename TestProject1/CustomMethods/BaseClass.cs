@@ -79,6 +79,7 @@ namespace TestProject1.CustomMethods
 
         }
 
+
         public static void ScrollintoView(IWebDriver driver, IWebElement Element)
         {
             IJavaScriptExecutor js = driver as IJavaScriptExecutor;
