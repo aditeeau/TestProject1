@@ -14,9 +14,9 @@ namespace TestProject1.PageObjects
         {
             this.driver = driver;
         }
-        public IWebElement accountsButton => driver.FindElement(By.XPath("(//a[@role='button'])[2])"));
-        public IWebElement cutomerMenu => driver.FindElement(By.XPath("//a[text()='Customers']"));
+        //public IWebElement accountsButton => driver.FindElement(By.XPath("(//a[@role='button'])[2])"));
+        public IWebElement customersLink => driver.FindElement(By.XPath("//a[text()='Customers']"));
 
-
+        public IWebElement accountsLink => driver.FindElement(By.XPath("//*[contains(text(),'Accounts')]"));
     }
 }

@@ -6,5 +6,7 @@
 		<Parameter name="password" value="ThisIsNotAPassword" />
 		<Parameter name="wrongPassword" value="demo" />
 		<Parameter name="browser" value="Chrome" />
+		<Parameter name="day" value="26" />
+		<Parameter name="facilityOption" value="Tokyo CURA Healthcare Center" />
 	</TestRunParameters>
 </RunSettings>

@@ -20,9 +20,9 @@ namespace TestProject1.PageObjects
         public IWebElement editButton => driver.FindElement(By.XPath("//a[@title='Edit']"));
         public IWebElement deleteButton => driver.FindElement(By.XPath("//a[@title='DELETE']"));
 
-        //for Katalon
+        
         public IWebElement addButton => driver.FindElement(By.XPath("//button[@type='submit']"));
-        public IWebElement specificCustomerCheckbox => driver.FindElement(By.XPath("//td[text()='Ankit']//preceding-sibling::td//input"));
+        public IWebElement specificCustomerCheckbox => driver.FindElement(By.XPath("//td[text()='Aditee']//preceding-sibling::td//input"));
         public IWebElement deleteCustomerButton => driver.FindElement(By.Id("deleteAll"));
 
     }

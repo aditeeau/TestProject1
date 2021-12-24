@@ -10,7 +10,7 @@ using OpenQA.Selenium.Support.UI;
 
 namespace TestProject1.CustomMethods
 {
-    public static class BaseClass
+    public class BaseClass
     {
         // Tears down test and throws exception
         public static void CloseTest(IWebDriver driver)
@@ -96,7 +96,11 @@ namespace TestProject1.CustomMethods
             System.Threading.Thread.Sleep(Time * 1000);
 
         }
-
+        public string GetCurrentMonthAndYear()
+        {
+            string date = DateTime.Today.ToString("MMMM yyyy");
+            return date;
+        }
 
     }
 }
