@@ -33,6 +33,11 @@ namespace TestProject1.CustomMethods
 
         }
 
+        internal static void EnterText(object usernameTextField, string? v)
+        {
+            throw new NotImplementedException();
+        }
+
         // custom method for entering a text in to a field
         public static void EnterText(IWebElement element, string value)
         {
